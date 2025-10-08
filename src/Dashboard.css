@@ -1,0 +1,89 @@
+
+.dashboard-container {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.dashboard-header h2 {
+  color: #002147;
+}
+
+.dashboard-header button {
+  padding: 10px 20px;
+  background-color: #f7c600;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.dashboard-tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.dashboard-tabs button {
+  padding: 10px 20px;
+  border: none;
+  font-weight: bold;
+  background-color: #f7c600;
+  color: #002147;
+  margin: 0 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.dashboard-tabs .active {
+  background-color: #002147;
+  color: white;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th {
+  background-color: #f7c600;
+  color: #002147;
+  padding: 12px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  color: #002147;
+}
+
+td button {
+  margin: 0 5px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+td button:first-child {
+  background-color: #f7c600;
+  color: #002147;
+}
+
+td button:last-child {
+  background-color: #002147;
+  color: white;
+}
